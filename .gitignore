@@ -1,0 +1,99 @@
+## .gitignore para proyectos de C# / .NET / Windows Forms (Visual Studio)
+
+# ---------- Carpetas de compilación ----------
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Ll]og/
+[Ll]ogs/
+
+# ---------- Archivos de Visual Studio ----------
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.userprefs
+*.rsuser
+*.vsp
+*.vspx
+*.sap
+
+# ---------- Visual Studio Code ----------
+.vscode/
+
+# ---------- Resultados de pruebas ----------
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+*.trx
+*.coverage
+*.coveragexml
+coverage*.json
+coverage*.xml
+
+# ---------- Archivos temporales y de caché ----------
+*.log
+*.tmp
+*.temp
+*.cache
+*.pidb
+*.svclog
+*.scc
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+.idea/
+*.dotCover
+~$*
+*~
+*.bak
+
+# ---------- Paquetes NuGet ----------
+*.nupkg
+*.snupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ---------- Publicación ----------
+publish/
+PublishScripts/
+*.[Pp]ublish.xml
+*.pubxml
+*.pubxml.user
+*.publishproj
+
+# ---------- Bases de datos locales (si las usas) ----------
+*.mdf
+*.ldf
+*.ndf
+*.sdf
+*.db
+*.sqlite
+*.sqlite3
+
+# ---------- Archivos del sistema operativo ----------
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# ---------- Secretos (nunca subir) ----------
+appsettings.Development.json
+secrets.json
+*.pfx
+*.snk
+.env
