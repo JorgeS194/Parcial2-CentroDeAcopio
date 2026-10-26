@@ -19,4 +19,5 @@ namespace Parcial2
             Application.Run(new Form1());
         }
     }
+
 }
