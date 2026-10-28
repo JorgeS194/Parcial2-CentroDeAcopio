@@ -265,6 +265,7 @@ namespace CentroAcopio.Presentacion
 
             DataGridViewCellStyle estiloAlterno = new DataGridViewCellStyle(estiloCelda);
             estiloAlterno.BackColor = Color.FromArgb(255, 239, 213);
+            estiloAlterno.Alignment = DataGridViewContentAlignment.NotSet;
             dgvConsultas.AlternatingRowsDefaultCellStyle = estiloAlterno;
         }
 
@@ -274,7 +275,7 @@ namespace CentroAcopio.Presentacion
             DefinirColumna("NombreProducto", "Producto", 20, DataGridViewContentAlignment.MiddleLeft, string.Empty);
             DefinirColumna("Descripcion", "Descripción", 28, DataGridViewContentAlignment.MiddleLeft, string.Empty);
             DefinirColumna("TipoDonacion", "Tipo", 12, DataGridViewContentAlignment.MiddleCenter, string.Empty);
-            DefinirColumna("Cantidad", "Cantidad", 10, DataGridViewContentAlignment.MiddleRight, "N0");
+            DefinirColumna("Cantidad", "Cantidad", 10, DataGridViewContentAlignment.MiddleCenter, "N0");
             DefinirColumna("FechaRegistro", "Fecha de registro", 16, DataGridViewContentAlignment.MiddleCenter, "dd/MM/yyyy HH:mm");
             DefinirColumna("Talla", "Talla", 8, DataGridViewContentAlignment.MiddleCenter, string.Empty);
             DefinirColumna("GrupoEdad", "Edad", 9, DataGridViewContentAlignment.MiddleCenter, string.Empty);

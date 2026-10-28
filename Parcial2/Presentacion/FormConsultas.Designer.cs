@@ -145,11 +145,11 @@
             this.cboxConsultarTalla.TabIndex = 13;
             this.cboxConsultarTalla.SelectedIndexChanged += new System.EventHandler(this.cboxFiltrosRopa_SelectedIndexChanged);
             // 
-            // checkBox3
+            // chkRopa
             // 
             this.chkRopa.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.chkRopa.Location = new System.Drawing.Point(619, 40);
-            this.chkRopa.Name = "checkBox3";
+            this.chkRopa.Name = "chkRopa";
             this.chkRopa.Size = new System.Drawing.Size(221, 41);
             this.chkRopa.TabIndex = 3;
             this.chkRopa.Text = "Donaciones de ropa";
